@@ -7,7 +7,8 @@
 
 ## Demo
 
-[![Demo video](https://raw.githubusercontent.com/adjay27/emodule-mobile-learning-plc/main/drawable/Light%20-%20Splash%20Screen.svg)](https://raw.githubusercontent.com/adjay27/emodule-mobile-learning-plc/main/drawable/Media1.mp4)
+<video src="drawable/Media1.mp4" controls="controls" style="max-width: 100%;">
+</video>
 
 ## Project Structure
 
