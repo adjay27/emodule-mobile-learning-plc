@@ -1,13 +1,15 @@
 # E-Module Mobile Learning PLC - Documentation
 
-<img title="thumbnail" src="drawable\Picture1.png">
+<img title="thumbnail" src="drawable\Picture1.png" style="display: block; margin: 0 auto">
 
 **Project Name**: E-Module Mobile Learning PLC  
 **Description**: The "E-Module Mobile Learning PLC" app is an educational Android application designed to help students learn about programming logic controllers (PLC) on their smartphones. Developed using Android Studio, this app serves as a mobile-friendly e-learning platform, offering interactive modules, tutorials, and exercises focused on PLC programming concepts.
 
 ## Demo
 
-![Project Demo](drawable/demo.gif)
+<p align="center">
+  <img src="drawable/demo.gif" alt="Project Demo" width="300">
+</p>
 
 ## Project Structure
 
