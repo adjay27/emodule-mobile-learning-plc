@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangActivity">
+
+    <TextView
+        android:id="@+id/header_pengembang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Pengembang"
+        android:textSize="20sp"
+        android:layout_marginLeft="24dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carddev1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/offwhite"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/header_pengembang"
+        >
+
+        <TextView
+            android:id="@+id/pengembang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/index__"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/header_pembimbing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Pembimbing"
+        android:textSize="20sp"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintTop_toBottomOf="@id/carddev1"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/carddev2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/offwhite"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/header_pembimbing"
+        >
+
+        <TextView
+            android:id="@+id/pembimbing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/sukir_c_0m_t_"
+            android:drawablePadding="8dp"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

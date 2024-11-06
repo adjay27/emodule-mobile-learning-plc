@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.materi.MateriFragment"
+    android:background="@color/iris_blue"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_gravity="bottom"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_materi_plc_dasar_silahkan_pilih_materi_yang_akan_dipelajari"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/rectanglemateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_materi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="720dp"
+        android:layout_marginTop="16dp"
+        android:foregroundGravity="bottom"
+        android:paddingTop="8dp"
+        android:paddingBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="@+id/rectanglemateri"
+        app:layout_constraintTop_toTopOf="@id/rectanglemateri">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <ImageButton
+                android:id="@+id/materi1button"
+                android:layout_width="168dp"
+                android:layout_height="211dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="200dp"
+                android:background="@drawable/materi1"
+                android:scaleType="fitXY"
+                android:src="@drawable/materi1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/rectanglemateri" />
+
+            <ImageButton
+                android:id="@+id/materi2button"
+                android:layout_width="168dp"
+                android:layout_height="211dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/materi2"
+                android:scaleType="fitXY"
+                android:src="@drawable/materi2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/rectanglemateri" />
+
+            <ImageButton
+                android:id="@+id/materi3button"
+                android:layout_width="168dp"
+                android:layout_height="211dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/materi3"
+                android:scaleType="fitXY"
+                android:src="@drawable/materi3"
+                app:layout_constraintStart_toStartOf="@+id/materi1button"
+                app:layout_constraintTop_toBottomOf="@id/materi1button" />
+
+            <ImageButton
+                android:id="@+id/materi4button"
+                android:layout_width="168dp"
+                android:layout_height="211dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/materi4"
+                android:scaleType="fitXY"
+                android:src="@drawable/materi4"
+                app:layout_constraintEnd_toEndOf="@+id/materi2button"
+                app:layout_constraintTop_toBottomOf="@id/materi2button" />
+
+            <ImageButton
+                android:id="@+id/materi5button"
+                android:layout_width="168dp"
+                android:layout_height="211dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/materi5"
+                android:scaleType="fitXY"
+                android:src="@drawable/materi5"
+                app:layout_constraintStart_toStartOf="@+id/materi3button"
+                app:layout_constraintTop_toBottomOf="@id/materi3button" />
+
+            <ImageButton
+                android:id="@+id/materi6button"
+                android:layout_width="168dp"
+                android:layout_height="211dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/materi6"
+                android:scaleType="fitXY"
+                android:src="@drawable/materi6"
+                app:layout_constraintEnd_toEndOf="@+id/materi4button"
+                app:layout_constraintTop_toBottomOf="@id/materi4button" />
+
+            <ImageButton
+                android:id="@+id/materi7button"
+                android:layout_width="168dp"
+                android:layout_height="211dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/materi7"
+                android:scaleType="fitXY"
+                android:src="@drawable/materi7"
+                app:layout_constraintStart_toStartOf="@+id/materi5button"
+                app:layout_constraintTop_toBottomOf="@id/materi6button" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

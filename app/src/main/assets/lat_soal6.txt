@@ -1,0 +1,14 @@
+1. Sebutkan tiga tipe kesalahan sistem kendali PLC
+2. Perintah apakah yang digunakan untuk mengecek kesalahan 
+pemrograman menggunakan Konsol Pemrogram ?
+3. Apakah perbedaan kesalahan non-fatal dan kesalahan fatal?
+4. Pesan apakah yang akan ditampilkan saat terjadi kesalahan berikut ini :
+a. Alamat yang diset lebih besar daripada alamat memori tertinggi.
+b. Instruksi pada alamat terakhir bukan NOP(00).
+c. Dalam program tidak ada instruksi END(01)
+d. Konstanta untuk instruksi tidak dalam nilai yang ditetapkan.
+5. Apakah arti pesan kesalahan berikut ini :
+a. ?????
+b. CIRCUIT ERR
+c. COIL DUPL
+d. I/O NO ER

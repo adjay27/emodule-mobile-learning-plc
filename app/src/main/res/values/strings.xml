@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">E-Modul Pengendalian Otomasi Industri</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_materi">Materi</string>
+    <string name="title_video">Video</string>
+    <string name="title_eval">Evaluasi</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="petunjuk0">Pastikan smartphone yang digunakan memiliki akses internet untuk mengakses beberapa fitur e-modul</string>
+    <string name="petunjuk1">Unduh Aplikasi E-modul melalui link yang diberikan kemudian install aplikasi</string>
+    <string name="petunjuk2">Setelah aplikasi terbuka akses menu di bawah untuk berpindah menu ke materi dengan menekan ikon berikut</string>
+    <string name="petunjuk3">Pelajari materi secara berurutan dan lihat video untuk menambah pemahaman materi</string>
+    <string name="petunjuk4">Kerjakan tes formatif setelah menyelesaikan setiap kegiatan pembelajaran pada menu evaluasi</string>
+    <string name="petunjuk5">Apabila tingkat penguasaan anda diatas 80% maka dapat melanjutkan kegiatan belajar selanjutnya</string>
+
+</resources>

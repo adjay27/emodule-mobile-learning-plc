@@ -1,0 +1,14 @@
+1. Sebutkan komponen input/ output yang diperlukan untuk mewujudkan 
+program kendali di atas !
+2. Dapatkah kontak NC 0.00 diwakili oleh tombol NO ?
+3. Apakah yang terjadi jika kontak NC diwakili oleh tombol NC ?
+4. Mengapa sumber tegangan untuk rangkaian input menggunakan arus 
+searah ?
+5. Apa yang terjadi jika sumber tegangan DC untuk rangkaian input 
+terbalik polaritasnya ?
+6. Dapatkah rangkaian input menggunakan sumber tegangan AC ? 
+Jelaskan alasan jawabanmu !
+7. Apakah tujuan disediakan lebih dari satu terminal COM pada output 
+PLC ?
+8. Gambarkan rangkaian pengawatan input/ output dari diagram ladder di 
+atas !

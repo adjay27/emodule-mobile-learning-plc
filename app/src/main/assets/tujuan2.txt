@@ -1,0 +1,5 @@
+Setelah pembelajaran mahasiswa dapat :
+1. Merancang program kendali PLC sederhana
+2. Memasukkan program ke dalam PLC
+3. Mengecek kebenaran program
+

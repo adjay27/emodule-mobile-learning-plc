@@ -1,0 +1,5 @@
+Aplikasi e-modul ini adalah sebuah modul elektronik yang dapat dipasang pada smartphone android. 
+
+E-modul Pengendalian Otomasi Industri disusun untuk membantu mempermudah mahasiswa dalam pembelajaran mata kuliah Praktik PLC. E-Modul ini menggunakan sistem mobile learning sehingga mahasiswa dapat belajar secara mandiri dimana saja dan kapan saja dengan mengakses melalui perangkat smartphone.
+
+Materi yang dimuat dalam aplikasi e-modul ini mempelajari tentang materi PLC dasar dan aplikasi PLC untuk trainer pengendalian otomasi industri

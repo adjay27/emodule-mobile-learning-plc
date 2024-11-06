@@ -1,0 +1,13 @@
+1. Apakah yang dimaksud dengan sistem kendali ?
+2. Apakah perbedaan sistem kendali loop terbuka dan loop tertutup ?
+3. Apakah sesungguhnya PLC itu ?
+4. Sebutkan masing-masing tiga contoh :
+a. Alat input
+b. Alat output
+c. Alat penunjang
+5. Gambarkan diagram blok yang menunjukkan hubungan masing-masing peralatan 
+sistem kendali PLC !
+6. Sebutkan lima keunggulan PLC dibandingkan sistem kendali elektromagnet !
+7. Jelaskan bahwa sistem kendali PLC lebih murah jika dibandingkan sistem kendali 
+elektromagnet !
+8. Sebutkan daerah penerapan PLC !

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pengayaan.Pengayaan_7">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardpengayaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/offwhite"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/article_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dyna_blue"
+                android:textColor="@color/offwhite"
+                android:padding="10dp"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textStyle="bold"
+                android:text="Pengayaan"/>
+            <TextView
+                android:id="@+id/textpengayaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/article_heading"
+                android:padding="8dp"
+                android:lineSpacingExtra="1sp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/selengkapnya"
+                app:layout_constraintTop_toBottomOf="@id/textpengayaan"
+                android:text="Detail lengkap dapat diakses melalui pdf dibawah ini"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                />
+
+            <Button
+                android:id="@+id/pengayaanpdf"
+                android:drawableLeft="@drawable/ic_list"
+                android:layout_margin="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/selengkapnya"
+                android:text="Pengayaan Materi 7"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardpengayaan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center_vertical"
+        app:cardBackgroundColor="@color/offwhite"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardpengayaan">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/mqdefault"
+            android:drawablePadding="8dp"
+            android:text="Video Trainer Kit Otomasi Industri Berbasis PLC"
+            android:textColor="@color/black"
+             />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

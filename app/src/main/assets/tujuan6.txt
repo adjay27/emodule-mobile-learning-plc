@@ -1,0 +1,4 @@
+Setelah mengikuti pembelajaran mahasiswa dapat :
+1. Mengidentifikasi macam-macam kesalahan operasi PLC.
+2. Mengidentifikasi penyebab kesalahan operasi PLC.
+3. Menangani kesalahan operasi PLC.

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@drawable/ic_light___homebg"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    >
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/rectangle_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/rectangle_menu"
+        android:foregroundGravity="fill_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textjurusan" />
+
+    <ImageView
+        android:id="@+id/textjurusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_jurusan_pendidikan_teknik_elektro_fakultas_teknik_universitas_negeri_yogyakarta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lambanguny" />
+
+    <ImageView
+        android:id="@+id/lambanguny"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/lambang_0_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emodulver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:fontFamily="sans-serif-light"
+        android:text="E-Modul Pengendalian Otomasi Industri"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#8F8E94"
+        android:textSize="12sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/versi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versi 1.0"
+        android:textSize="12sp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@id/emodulver"
+        android:textColor="#8F8E94"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif-light" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/selamatdatang"
+        android:layout_width="match_parent"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/offwhite"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textjurusan"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selamat_datang"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageButton
+        android:id="@+id/pend_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_pendh_button"
+        android:src="@drawable/ic_pendh_button"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/petunjuk_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selamatdatang" />
+
+    <ImageButton
+        android:id="@+id/petunjuk_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_petunjuk_penggunaan_buttn"
+        android:src="@drawable/ic_petunjuk_penggunaan_buttn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pend_button" />
+
+    <ImageButton
+        android:id="@+id/rps_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_rps_button"
+        android:src="@drawable/ic_rps_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/petunjuk_button"
+        app:layout_constraintTop_toTopOf="@+id/petunjuk_button" />
+
+    <ImageButton
+        android:id="@+id/dafpus_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ic_dafpus_button"
+        android:src="@drawable/ic_dafpus_button"
+        app:layout_constraintEnd_toStartOf="@+id/petunjuk_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pend_button" />
+
+    <ImageButton
+        android:id="@+id/tentang_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_tentang_button"
+        android:background="@drawable/ic_tentang_button"
+        app:layout_constraintTop_toBottomOf="@id/petunjuk_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/exit_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ic_exit_button"
+        android:src="@drawable/ic_exit_button"
+        app:layout_constraintTop_toBottomOf="@id/rps_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/petunjuk_button"
+         />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

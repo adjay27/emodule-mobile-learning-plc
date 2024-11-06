@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="32dp"
+    android:paddingVertical="8dp"
+    tools:context=".menu_materi.Materi7Activity">
+
+    <TextView
+        android:id="@+id/judultujuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tujuan Pembelajaran"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/tujuan7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="fill_horizontal"
+        app:layout_constraintTop_toTopOf="@id/judultujuan"
+        android:layout_marginTop="24dp"
+        />
+
+    <Button
+        android:id="@+id/materi7go"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_list"
+        android:text="Materi"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tujuan7"
+        />
+
+    <Button
+        android:id="@+id/job7go"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_list"
+        android:text="Jobsheet 7"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/materi7go"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:id="@+id/pengayaan7go"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_list"
+        android:text="Pengayaan"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/job7go"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:id="@+id/tes7go"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_list"
+        android:text="Tes Formatif 7"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/pengayaan7go"
+        android:layout_marginTop="8dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

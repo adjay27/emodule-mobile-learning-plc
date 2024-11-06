@@ -1,0 +1,3 @@
+Setelah mengikuti pembelajaran mahasiswa dapat :
+1. Melakukan uji coba program kendali PLC
+2. Mengoperasikan motor dengan kendali PLC

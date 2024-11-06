@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/iris_blue"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_gravity="bottom"
+    tools:context=".ui.video.VideoFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingHorizontal="16dp"
+        android:scaleType="fitStart"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_vidjudul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/rectanglemateri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle_materi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/card2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/thumb2"
+            android:drawablePadding="16dp"
+            android:text="Video Pembelajaran Instalasi Wiring PLC Omron CP1E"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textSize="12sp"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toTopOf="@id/rectanglemateri"
+            />
+
+
+
+        <TextView
+            android:id="@+id/card4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/thumb4"
+            android:drawablePadding="16dp"
+            android:text="Video Pembelajaran Instalasi PLC pada Box Panel"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textSize="12sp"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/card2"
+            />
+
+        <TextView
+            android:id="@+id/card5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/thumb5"
+            android:drawablePadding="16dp"
+            android:text="BELAJAR PROGRAM TANGKI PENGISIAN OTOMATIS DENGAN SOFTWARE CX PROGRAMMER CX DESIGNER PLC HMI OMRON"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textSize="11sp"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/card4"
+            />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

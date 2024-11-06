@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="32dp"
+    android:paddingVertical="8dp"
+    tools:context=".menu_materi.Materi2Activity">
+
+    <TextView
+        android:id="@+id/judultujuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tujuan Pembelajaran"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:id="@+id/tujuan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/judultujuan"
+        android:layout_marginTop="24dp"
+        />
+
+    <Button
+        android:id="@+id/materi2go"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_list"
+        android:text="Materi"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/tujuan2"
+        />
+
+
+    <Button
+        android:id="@+id/lat2go"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_list"
+        android:text="Latihan Soal 2"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/materi2go"
+        android:layout_marginTop="8dp"
+        />
+
+    <Button
+        android:id="@+id/tes2go"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/ic_list"
+        android:text="Tes Formatif 2"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/lat2go"
+        android:layout_marginTop="8dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

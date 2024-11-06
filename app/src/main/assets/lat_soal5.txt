@@ -1,0 +1,13 @@
+1. Apakah yang dimaksud dengan operasi uji coba program ?
+2. Untuk apa operasi uji coba program perlu dilakukan ?
+3. Dalam mode operasi manakah uji coba program PLC dapat dilakukan ?
+4. Perintah apakah yang digunakan dalam menguji coba program kendali 
+PLC ?
+5. Hal-hal apakah yang dapat dilakukan dalam uji coba program ?
+6. Untuk apa melakukan operasi Force Set/Reset bit output ?
+7. Untuk apa melakukan operasi Force Set/Reset bit input ?
+8. Apa yang akan terjadi jika tidak dilakukan operasi Force Cancel setelah 
+melakukan operasi Force Set/Reset suatu bit I/O ?
+9. Apakah perbedaan operasi uji coba dan operasi normal sistem kendali 
+PLC ?
+10. Apakah guna operasi monitoring eksekusi program ?

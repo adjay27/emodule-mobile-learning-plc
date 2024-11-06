@@ -1,0 +1,5 @@
+Setelah mengikuti pembelajaran mahasiswa dapat :
+1. Mampu memahami dan mengaplikasikan aplikasi PLC pada trainer automatic bottle filling and capping machine.
+2. Mampu merancang instalasi listrik dan pemrograman PLC conveyor unit pada trainer automatic bottle filling and capping machine dalam mode manual dan mode auto.
+3. Mampu merancang instalasi listrik dan pemrograman PLC bottle filling unit pada trainer automatic bottle filling and capping machine dalam mode manual dan mode auto.
+4. Mampu merancang instalasi listrik dan pemrograman PLC bottle capping unit pada trainer automatic bottle filling and capping machine dalam mode manual dan mode auto.

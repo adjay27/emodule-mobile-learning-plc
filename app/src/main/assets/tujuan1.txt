@@ -1,0 +1,6 @@
+Setelah pembelajaran mahasiswa dapat :
+1. Mengidentifikasi peralatan sistem kendali PLC
+2. Menjelaskan cara kerja sistem kendali PLC
+3. Menjelaskan keunggulan PLC
+4. Menyebutkan daerah penerapan PLC
+5. Mengidentifikasi struktur PLC

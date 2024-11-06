@@ -1,0 +1,3 @@
+Setelah pembelajaran mahasiswa dapat :
+1. Memasang Unit PLC sesuai petunjuk keselamatan kerja
+2. Memasang pengawatan I/O dengan benar

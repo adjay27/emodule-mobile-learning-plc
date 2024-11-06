@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.e_modulapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_materi"
+        android:name="com.example.e_modulapp.ui.materi.MateriFragment"
+        android:label="@string/title_materi"
+        tools:layout="@layout/fragment_materi" />
+
+    <fragment
+        android:id="@+id/navigation_video"
+        android:name="com.example.e_modulapp.ui.video.VideoFragment"
+        android:label="@string/title_video"
+        tools:layout="@layout/fragment_video" />
+
+    <fragment
+        android:id="@+id/navigation_evaluasi"
+        android:name="com.example.e_modulapp.ui.eval.EvalFragment"
+        android:label="@string/title_eval"
+        tools:layout="@layout/fragment_evaluasi" />
+</navigation>

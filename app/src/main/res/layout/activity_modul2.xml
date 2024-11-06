@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modulpdf.Modul_2">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/modul2pdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_baseline_add_24"
+        app:fabSize="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Next_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        app:fabSize="normal"
+        app:layout_constraintEnd_toEndOf="@id/Fab"
+        app:layout_constraintStart_toStartOf="@id/Fab"
+        app:layout_constraintBottom_toTopOf="@id/Fab"
+        />
+    <TextView
+        android:id="@+id/Next_fab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Selanjutnya"
+        android:textColor="@color/black"
+        android:background="@color/dark_white"
+        app:layout_constraintBottom_toBottomOf="@id/Next_fab"
+        app:layout_constraintEnd_toStartOf="@id/Next_fab"
+        app:layout_constraintTop_toTopOf="@id/Next_fab"
+        />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Prev_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        app:fabSize="normal"
+        app:layout_constraintEnd_toEndOf="@id/Next_fab"
+        app:layout_constraintStart_toStartOf="@id/Next_fab"
+        app:layout_constraintBottom_toTopOf="@id/Next_fab"
+        />
+
+    <TextView
+        android:id="@+id/Prev_fab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Sebelumnya"
+        android:textColor="@color/black"
+        android:background="@color/dark_white"
+        app:layout_constraintBottom_toBottomOf="@id/Prev_fab"
+        app:layout_constraintEnd_toStartOf="@id/Prev_fab"
+        app:layout_constraintTop_toTopOf="@id/Prev_fab"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Home_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/ic_home_black_24dp"
+        app:fabSize="normal"
+        app:layout_constraintEnd_toEndOf="@id/Prev_fab"
+        app:layout_constraintStart_toStartOf="@id/Prev_fab"
+        app:layout_constraintBottom_toTopOf="@id/Prev_fab"
+        />
+
+    <TextView
+        android:id="@+id/Home_fab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="Kembali ke Home"
+        android:textColor="@color/black"
+        android:background="@color/dark_white"
+        app:layout_constraintBottom_toBottomOf="@id/Home_fab"
+        app:layout_constraintEnd_toStartOf="@id/Home_fab"
+        app:layout_constraintTop_toTopOf="@id/Home_fab"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

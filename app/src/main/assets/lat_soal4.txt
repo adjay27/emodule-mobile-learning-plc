@@ -1,0 +1,21 @@
+1. Sebutkan tiga jenis alat yang digunakan untuk memprogram PLC !
+2. Sebutkan software komputer untuk memprogram PLC merk OMRON !
+3. Apakah yang dimaksud dengan komunikasi Host Link ?
+4. Sebutkan lima syarat komputer untuk dapat digunakan mengoperasikan 
+software CX-Programmer secara optimal !
+5. Sebutkan perintah standar dalam CX Programmer untuk :
+a. Mengambar kontak NO
+b. Menggambar kontak NC
+c. Menggambar garis horisontal
+d. Menggambar garis vertikal ke bawah
+e. Menggambar garis vertikal ke atas
+f. Menggambar kumparan
+g. Menggambar instruksi END
+h. Beralih dari operasi offline ke online
+i. Merubah mode operasi PLC
+j. Mentransfer program dari komputer ke PLC
+7. Apakah syarat-syarat untuk dapat mentransfer program dari komputer ke 
+dalam PLC ?
+8. Apakah yang dimaksud dengan down-load ?
+9. Indikator apakah yang menunjukkan bahwa operasi transfer program telah 
+berhasil ?

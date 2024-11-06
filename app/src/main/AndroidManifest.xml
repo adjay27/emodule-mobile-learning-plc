@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.e_modulapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcherfix"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EModulAPP"
+        tools:targetApi="31">
+        <activity
+            android:name=".video.Video6"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".video.Video5"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".video.Video4"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".video.Video3"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".pengayaan.PDF_pengayaan"
+            android:exported="false" />
+        <activity
+            android:name=".video.Video_Pengayaan"
+            android:exported="false" />
+        <activity
+            android:name=".eval_web.Eval_7"
+            android:exported="false" />
+        <activity
+            android:name=".pengayaan.Pengayaan_7"
+            android:exported="false" />
+        <activity
+            android:name=".latihan.Latihan_Soal6"
+            android:exported="false" />
+        <activity
+            android:name=".latihan.Latihan_Soal5"
+            android:exported="false" />
+        <activity
+            android:name=".latihan.Latihan_Soal4"
+            android:exported="false" />
+        <activity
+            android:name=".latihan.Latihan_Soal3"
+            android:exported="false" />
+        <activity
+            android:name=".latihan.Latihan_Soal2"
+            android:exported="false" />
+        <activity
+            android:name=".latihan.Latihan_Soal1"
+            android:exported="false" />
+        <activity
+            android:name=".latihan.Latihan_Soal7"
+            android:exported="false" />
+        <activity
+            android:name=".jobsheet.Jobsheet_7"
+            android:exported="false" />
+        <activity
+            android:name=".jobsheet.Jobsheet_6"
+            android:exported="false" />
+        <activity
+            android:name=".jobsheet.Jobsheet_5"
+            android:exported="false" />
+        <activity
+            android:name=".jobsheet.Jobsheet_4"
+            android:exported="false" />
+        <activity
+            android:name=".jobsheet.Jobsheet_3"
+            android:exported="false" />
+        <activity
+            android:name=".eval_web.Eval_6"
+            android:exported="false" />
+        <activity
+            android:name=".eval_web.Eval_5"
+            android:exported="false" />
+        <activity
+            android:name=".eval_web.Eval_4"
+            android:exported="false" />
+        <activity
+            android:name=".eval_web.Eval_3"
+            android:exported="false" />
+        <activity
+            android:name=".eval_web.Eval_2"
+            android:exported="false" />
+        <activity
+            android:name=".eval_web.Eval_1"
+            android:exported="false" />
+        <activity
+            android:name=".video.Video1"
+            android:exported="false"
+            android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar" />
+        <activity
+            android:name=".modulpdf.Modul_7"
+            android:exported="false" />
+        <activity
+            android:name=".modulpdf.Modul_6"
+            android:exported="false" />
+        <activity
+            android:name=".modulpdf.Modul_5"
+            android:exported="false" />
+        <activity
+            android:name=".modulpdf.Modul_4"
+            android:exported="false" />
+        <activity
+            android:name=".modulpdf.Modul_3"
+            android:exported="false" />
+        <activity
+            android:name=".modulpdf.Modul_2"
+            android:exported="false" />
+        <activity
+            android:name=".modulpdf.Modul_1"
+            android:exported="false" />
+        <activity
+            android:name=".menu_materi.Materi7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".menu_materi.Materi6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".menu_materi.Materi5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".menu_materi.Materi4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".menu_materi.Materi3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".menu_materi.Materi2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".menu_materi.Materi1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".TentangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DafpusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RpsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PetunjukActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PendahuluanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".HomeActivity" />
+    </application>
+
+</manifest>
