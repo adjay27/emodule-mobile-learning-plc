@@ -7,8 +7,7 @@
 
 ## Demo
 
-<video src="drawable/Media1.mp4" controls="controls" style="max-width: 100%;">
-</video>
+![Project Demo](drawable/demo.gif)
 
 ## Project Structure
 
