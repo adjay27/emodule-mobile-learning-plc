@@ -1,35 +1,39 @@
 # E-Module Mobile Learning PLC - Documentation
 
+<img title="thumbnail" src="drawable\Picture1.png">
+
 **Project Name**: E-Module Mobile Learning PLC  
 **Description**: The "E-Module Mobile Learning PLC" app is an educational Android application designed to help students learn about programming logic controllers (PLC) on their smartphones. Developed using Android Studio, this app serves as a mobile-friendly e-learning platform, offering interactive modules, tutorials, and exercises focused on PLC programming concepts.
+
+## Demo
+
+[![Demo video](https://raw.githubusercontent.com/adjay27/emodule-mobile-learning-plc/main/drawable/Light%20-%20Splash%20Screen.svg)](https://raw.githubusercontent.com/adjay27/emodule-mobile-learning-plc/main/drawable/Media1.mp4)
 
 ## Project Structure
 
 ### 1. **App Modules**
 
 - **Home**: Main screen providing access to all sections of the app.
-- **Lessons**: Contains structured learning modules on PLC basics, programming concepts, and practical exercises.
-- **Quizzes**: A set of quizzes to test the user’s understanding of PLC concepts.
-- **Simulations**: Interactive tools to visualize and simulate PLC programming examples.
-- **Settings**: Allows users to customize their app experience, such as adjusting font size or toggling notifications.
+- **Materi**: Contains structured learning modules on PLC basics, programming concepts, and practical exercises.
+- **Evaluasi**: A set of quizzes to test the user’s understanding of PLC concepts.
+- **Video**: A collection of videos to serve as additional material and reference about the PLC.
 
 ### 2. **Features**
 
 - **Interactive Modules**: The app includes various learning modules that cover the basics of PLC programming, such as ladder logic, boolean operations, timers, and counters.
 - **Quizzes & Tests**: After each module, quizzes allow students to self-evaluate and reinforce their learning.
-- **Simulations**: Users can experiment with PLC programming principles through simulations, which provide practical insight into real-world applications.
-- **Progress Tracking**: The app tracks the user's progress, marking completed modules and displaying scores for quizzes.
 - **User-Friendly Design**: The app is optimized for ease of navigation and usability on Android smartphones.
 
 ## Technology Stack
 
-- **Language**: Kotlin (or Java, if applicable)
+- **Language**: Java
 - **IDE**: Android Studio
-- **Architecture**: MVVM (Model-View-ViewModel) to ensure modularity and reusability
-- **Database**: SQLite or Room for storing user progress and quiz scores locally
-- **API Integration**: (Optional) If any external resources are used, such as pulling additional lessons or PLC-related content from online sources.
+- **Architecture**: MVVM (Model-View-ViewModel)
+- **API Integration**: Youtube API
 
 ## Installation Guide
+
+> PSA: Some library is deprecated, this project is no longer maintained.
 
 1. **Prerequisites**:
 
@@ -48,21 +52,19 @@
 
 ## Code Overview
 
-- **`MainActivity.kt`**: Hosts the main screen and navigation setup for the app.
-- **`LessonFragment.kt`**: Manages the PLC learning content and displays individual lessons.
-- **`QuizFragment.kt`**: Manages and displays quizzes related to each lesson.
-- **`SimulationFragment.kt`**: Contains the code for interactive PLC simulations.
-- **`DatabaseHelper.kt`**: Manages the local database for storing user data, such as progress and quiz scores.
+- **`HomeActivity.java`**: Hosts the main screen and navigation setup for the app.
+- **`MateriFragment.java`**: Manages the PLC learning content and displays individual lessons.
+- **`EvalFragment.java`**: Manages and displays quizzes related to each lesson.
+- **`VideoFragment.java`**: Manage and view a list of additional reference videos for learning purposes.
 
 ## Future Improvements
 
 - **Cloud Sync**: Sync user progress to a cloud database to allow cross-device access.
 - **Enhanced Simulations**: Introduce more complex simulation features and animations.
-- **Multilingual Support**: Add support for other languages to expand accessibility.
+- **Cross-Platform Development**: Adding iOS support by developing in cross-platform framework.
 
 ## Credits
 
-- Developed by: [Your Name / Team]
-- Contributors: [Names of other contributors, if any]
+- Developed by: Aditya F Wijaya
 
 This documentation covers the basic setup, structure, and purpose of the **E-Module Mobile Learning PLC** project.
